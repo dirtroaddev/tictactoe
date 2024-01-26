@@ -1,0 +1,23 @@
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; /* To stack rows vertically */
+    align-items: center; /* To center rows horizontally */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: auto; /* Adjusted to auto to accommodate child elements */
+    height: 80px;
+    background-color: whitesmoke;
+}
+
+.gridBoxes {
+    width: 80px;
+    height: 80px;
+    background-color: whitesmoke;
+    margin: 2px; /* Optional, adds space between boxes */
+    border: 1px solid red; 
+}
